@@ -1,0 +1,13 @@
+<html xmlns:th="http://thymeleaf.org">
+<head><title>Mars rover API App</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+</head>
+<body>
+<h2>Welcome to the Mars Rover API App.</h2>
+
+<div th:text="${name}">
+</div>
+<div th:text="${address}">
+</div>
+</body>
+</html>
