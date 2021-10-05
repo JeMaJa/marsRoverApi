@@ -56,7 +56,10 @@
 			</plugin>
 		</plugins>
 	</build>
-	 <plugin>
+	
+
+</project>
+ <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-dependency-plugin</artifactId>
         <version>2.3</version>
@@ -77,5 +80,3 @@
             </execution>
         </executions>
     </plugin>
-
-</project>
